@@ -188,7 +188,7 @@ a {
 /*-----------SubHeader----------------*/
 
 .subheader{
-	background-image: url(http://www.josephjennings3.com/innovation/img/inno3.jpg);
+	background-image: url(../img/inno3.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 800px;
@@ -222,13 +222,13 @@ a {
 
 .sub{
 	float: left;
-	width: 700px;
+	width: 100%;
 }
 
 /*-------------SubJumbotron------------*/
 
 .subjumbotron{
-	background-image: url(http://www.josephjennings3.com/innovation/img/under.jpg);
+	background-image: url(../img/under.jpg);
 	background-size: cover;
 	height: 600px;
 }
@@ -245,7 +245,7 @@ a {
 
 .subjumbotron p{
 	text-align: right;
-	color: #000;
+	color: #fff;
 	font-weight: 900;
 }
 
@@ -267,4 +267,22 @@ a {
 
 .subheader .learn:hover{
 	background-color: #3f0352;
+}
+
+/* -------- MOBILE-------- */
+
+@media only screen and (max-width: 800px) {
+
+	#pill {
+		display: none;
+	}
+
+	.header h1 {
+		font-size: 2rem;
+	}
+
+	.mobile_flex {
+		display: flex;
+		flex-direction: column;
+	}
 }
