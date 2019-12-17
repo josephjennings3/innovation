@@ -218,6 +218,10 @@ a {
 	text-transform: uppercase;
 }
 
+.white {
+	color: #fff !important;
+}
+
 /*-----------------SubMain-----------------*/
 
 .sub{
